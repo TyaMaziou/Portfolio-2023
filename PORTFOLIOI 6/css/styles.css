@@ -850,15 +850,15 @@ fonction pour ouverture et fermeture des buttons de competences
 } */
 
 .contact-form{
-    max-width: 600px;
+    max-width: 650px;
     margin: auto;
     width: 100%;
     display: grid;
     row-gap: 1rem;
-}
-
-.contact__container{
-    color: #fff;
+    background-color: #8982a321;
+    padding: 30px;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 25px 6px #a5a5a5;
 }
 
 .contact-form input, .contact-form textarea{
@@ -868,6 +868,7 @@ fonction pour ouverture et fermeture des buttons de competences
     color: rgb(0, 0, 0);
     background: whitesmoke;
     border-radius: 0.4rem;
+    box-shadow:  .3em .3em rgba(121, 121, 121, 0.258);
 }
 
 .contact-form .send-btn{
@@ -889,7 +890,9 @@ fonction pour ouverture et fermeture des buttons de competences
     font-weight: 500;
     text-transform: uppercase;
     padding: 12px;
-    background:  rgba(196, 188, 255, 0.475);
+    box-shadow:  1em .6em rgba(121, 121, 121, 0.285);
+    transform: scale(1.05);
+    color: #000000;
     cursor: pointer;
 }
 
@@ -897,18 +900,21 @@ fonction pour ouverture et fermeture des buttons de competences
     outline: auto;
     font-size: 0.9rem;
     padding: 15px;
-    color: rgb(0, 0, 0);
-    background:  rgba(196, 188, 255, 0.447);
+    color: #000000;
     border-radius: 0.4rem;
+    box-shadow: inset 1em .6em rgba(121, 121, 121, 0.232);
+    transform: scale(.95);
 }
 
 /* footer */
 
 .footer{
-    padding-top: 2rem;      
+    padding-top: 5rem;      
     padding: 2rem;
     padding-top: 5rem;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2rem;
+ 
 }
 
 .footer__container{
@@ -919,6 +925,8 @@ fonction pour ouverture et fermeture des buttons de competences
 .footer__bg{
     background-color: #0e1354;
     padding: 2rem 0 3rem;
+    border-radius : 2rem;
+    box-shadow: 5px 5px 5px 0px #9f9f9fc9;
 }
 
 .footer__title{
@@ -941,9 +949,9 @@ fonction pour ouverture et fermeture des buttons de competences
 }
 
 .footer__social{
-    font-size: 2rem;
-    margin-right: var(--mb-1-5);
-
+    font-size: 2.4rem;
+    margin-left: 4rem;
+    
 }
 
 .footer__social:hover{
