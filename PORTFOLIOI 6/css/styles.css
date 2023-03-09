@@ -307,7 +307,8 @@ img{
 }
 
 .home__description1{
-    color: #8a8a8a;
+    color: #000000c8;
+    font-weight: bold;
 }
 
 .home__scroll{
