@@ -1,3 +1,5 @@
+
+
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Poppins:ital,wght@0,500;1,300;1,400&display=swap');
 
@@ -94,7 +96,8 @@ ul{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: underline;
+    color: #1e00ff;
 }
 
 img{
@@ -435,6 +438,47 @@ img{
     margin-left: 17rem ;
 }
 
+/* passions */
+
+.passion__description{
+    display: block;
+    margin: .2rem;
+    align-items: center;
+    width: 700px;
+    border-radius : .5rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.passion__description__color{
+    color: #3900e4;
+    text-decoration: underline;
+    
+}
+
+.passion__info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+    margin-left: 5rem ;
+}
+
+.passion__info-title{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.passion__info-name{
+    font-size: var(--small-font-size);
+}
+
+;.passion__info-title, .passion__info-name{
+    display: block;
+    text-align: center;
+    block-size: 40px;
+}
+
 
 /* compétences */
 .skills__container{
@@ -502,15 +546,15 @@ img{
 }
 
 .skills__html{
-    width: 85%;
+    width: 75%;
 }
 
 .skills__CSS{
-    width: 80%;
+    width: 70%;
 }
 
 .skills__JavaScript{
-    width: 30%;
+    width: 15%;
 }
 
 .skills__JQUERY{
@@ -522,7 +566,7 @@ img{
 }
 
 .skills__Python{
-    width: 10%;
+    width: 8%;
 }
 
 .skills__PHP{
