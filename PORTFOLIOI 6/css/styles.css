@@ -282,8 +282,12 @@ img{
     fill: var(--first-color);
 }
 
-.home__img{
+.home__img {
     width: 170px;
+}
+
+.about__img1{
+    border-radius: 50% 20% / 10% 40%;
 }
 
 .home__data{
